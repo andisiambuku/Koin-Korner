@@ -60,6 +60,97 @@ ul{
 .nav-link{
     font-weight: var(--bold-font);
 }
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1.9rem;
+    max-width: 1100px;
+    margin:2rem auto -6rem;
+}
+.intro h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.intro p{
+    margin-bottom: 0.5rem;
+    text-align:left;
+}
+
+.hero p{
+    line-height: var(--line-height);
+}
+.land{
+    color:var(--primary-color)
+}
+.here{
+    color:var(--secondary-color)
+}
+.btn{
+    margin-top: 1rem;
+    display:inline-block;
+    padding:0.8rem 0.6rem;
+    border:none;
+    color:#fff;
+}
+.lavender{
+background-color: var(--secondary-color);
+}
+.lavender:hover{
+background-color: #B5B2C2;
+}
+.blue{
+background-color: var(--secondary-color);
+color: #fff;
+}
+.blue:hover{
+background-color: #A0C1D1;
+color:#fff;
+}
+.sub{
+    margin-top: 0rem;
+}
+.sub h2{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    margin: 0.1rem 2 rem;
+}
+.email-sub{
+    padding: 0.2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+}
+.email-sub:focus{
+    border: 1px solid var(--secondary-color);
+    outline:none;
+}
+.submit-btn{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding:0.3rem;
+    margin:0.5rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color:  #b3b4b4;;
+}
+/* .social {
+    text-align: center;
+    margin: 2rem;
+}*/
+  
+.socicons {
+    font-size: 1.3rem; 
+    size: large;
+    align-items: center;
+} 
+
 
 footer{
     border-top: 1px solid #f1f1f1;
