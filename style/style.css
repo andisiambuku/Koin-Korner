@@ -145,12 +145,29 @@ form{
     margin: 2rem;
 }*/
   
-.socicons {
+.sub #socicons {
     font-size: 1.3rem; 
     size: large;
-    align-items: center;
+    
+    margin: auto;
 } 
+.search{
+    width: 600px;
+    margin:100px auto;
+}
+input[type="text"]{
+    display: block;
+    width: calc(100% - 24px);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color);
+    padding:10px;
+    border:outline;
 
+}
+.data{
+    margin: auto;
+}
 
 footer{
     border-top: 1px solid #f1f1f1;

@@ -53,7 +53,7 @@
             </div>
             <div class="sub" id="sub">
                 <h2>Connect with us on Social Media</h2>
-                    <div class="socicons">
+                    <div id="socicons" >
                      <a href="#"> <ion-icon size="large"name="logo-twitter"></ion-icon> </a>
                      <a href="#"> <ion-icon size="large"name="logo-instagram"></ion-icon> </a>
                      <a href="#"> <ion-icon size="large"name="logo-facebook"></ion-icon> </a>
@@ -78,21 +78,58 @@
                 </form>
             </div>
         </section>
-
+        <br>
+        <br>
         <!--Search feature-->
         <section class="look-up">
+            <div class="search" id=""search>
             
+                <form action="#">
+                    <input
+                    type="text"
+                    placeholder="Search"
+                    class="search-bar"
+                    required
+                    >
+                </form>
+            </div>
         </section>
+        <br>
         <!--Table with Current Crypto Data-->
         <section class="data">
+            <table class="data" id="data">
+                <tr >
+                    <th>#</th>
+                    <th>Coin</th>
+                    <th>Price</th>
+                    <th>1h</th>
+                    <th>24h</th>
+                    <th>7d</th>
+                    <th>24h volume</th>
+                    <th>Market Cap</th>
+                    <th>Last 7 Days</th>
+                    <th>Like</th>
 
+                </tr>
+                <td>1</td>
+                <td>Bitcoin</td>
+                <td>20,000</td>
+                <td>20,000</td>
+                <td>20,000</td>
+                <td>20,000</td>
+                <td>20,000</td>
+                <td>20,000</td>
+                <td>Chart</td>
+                <td>liked</td>
+            </table>
         </section>
-
+        <br>
         <!--Footer Section-->
         <footer>
             Powered by <a href="https://www.coingecko.com/en/api/documentation">Coin Gecko API</a><br>
             &copy;2022. All Rights Reserved
         </footer>
+    
         <!--Web interactivity script-->
         <script src="./src/script.js"></script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
