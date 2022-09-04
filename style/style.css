@@ -148,7 +148,7 @@ form{
 .sub #socicons {
     font-size: 1.3rem; 
     size: large;
-    
+    text-align: center;
     margin: auto;
 } 
 .search{
