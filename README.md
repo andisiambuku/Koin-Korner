@@ -1,6 +1,10 @@
 # Koin-Korner
 
 ## Description of The Project
+Koin Korner is a single page application cryptocurrency live tracker. It displays current cryptocurrency data such as price, marketcap and volume. This application is ideal for a newbie to Cryptocurrency who is doing their due diligence and watching how the market works as well as an experienced Cryptocurrency trader who wants to see the market at a glance at any time of the day.
+This application is made with HTML CSS and JS.
+
+This project is a fulfillment of Moringa School's Phase 1 Project Assignment. 
  
 ## Link to Live Site on GitHub Pages 
 Take a look at it here:
@@ -23,4 +27,4 @@ git clone https://github.com/andisiambuku/Koin-Korner.git
 
 ## Copyright and License Information
 This project is free to use and does not contains any license.
-The API uses for this application is provided by [Coin Gecko](https://www.coingecko.com/en/api/documentation)
+The API used for this application is provided by [Coin Gecko](https://www.coingecko.com/en/api/documentation)
