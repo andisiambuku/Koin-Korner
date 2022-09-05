@@ -168,7 +168,19 @@ input[type="text"]{
 .data{
     margin: auto;
 }
-
+.table{
+    margin: auto;
+    border-collapse: collapse;
+}
+th{
+    padding: 15px;
+}
+tr{
+   border-bottom: 1px solid var(--primary-color);
+}
+tr:hover{
+    background-color: var(--primary-color);
+}
 footer{
     border-top: 1px solid #f1f1f1;
     box-shadow: 0px -2px 3px #f1f1f1;
