@@ -186,8 +186,8 @@ th{
 tr{
    border-bottom: 1px solid var(--primary-color);
 }
-tr:hover{
-    background-color: var(--primary-color);
+#like-btn{
+    text-align: center;
 }
 footer{
     border-top: 1px solid #f1f1f1;
