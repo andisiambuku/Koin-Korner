@@ -140,10 +140,7 @@ form{
 .submit-btn:hover{
     background-color:  #b3b4b4;;
 }
-/* .social {
-    text-align: center;
-    margin: 2rem;
-}*/
+
   
 .sub #socicons {
     font-size: 1.3rem; 
@@ -152,7 +149,7 @@ form{
     margin: auto;
 } 
 .search{
-    width: 600px;
+    width: 500px;
     margin:100px auto;
 }
 input[type="text"]{
@@ -163,7 +160,18 @@ input[type="text"]{
     color: var(--primary-color);
     padding:10px;
     border:outline;
-
+}
+.search-btn{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding:0.3rem;
+    margin:0.5rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.search-btn:hover{
+    background-color:  #b3b4b4;;
 }
 .data{
     margin: auto;
