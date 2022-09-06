@@ -171,14 +171,10 @@ input[type="text"]{
 .search-btn:hover{
     background-color:  #b3b4b4;
 }
-.card{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.search-result-card{
+.search-result-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .single-search-result{
     display: flex;
@@ -216,6 +212,21 @@ height: 2rem;
 .single-search-result > a:hover{
     background-color: #465362;
     /* color: #011936; */
+}
+.market-data-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.single-market-data{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: auto;
+    margin: auto;
+    gap: 1rem;
+    transition: all 0.25s;
 }
 
 

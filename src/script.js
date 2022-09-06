@@ -2,7 +2,7 @@
 const likerButton = document.getElementById('like-btn');
 const searchButton = document.getElementById('search')
 
-//function for the search button
+//function for the search feature
 function searchData(){
     const currentURL =window.location.href;
     const url_obj = new URL(currentURL);
@@ -59,13 +59,10 @@ function createSingleCard(index, logo, name, symbol, coinId){
 
     document.getElementById('search-results').appendChild(container_elem);
 }
-/* <div class="single-search-result card">
-    <p>1<p>
-    <img src=""/>
-    <h3>Bitcoin</h3>
-    <button>More Info</button>
 
-</div> */
+//function for coin data
+
+
 
 
 //function for the like button
@@ -73,7 +70,7 @@ function createSingleCard(index, logo, name, symbol, coinId){
 //    return likerButton.
 // }
 
-//function for the table data
+
 
 
 
