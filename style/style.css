@@ -228,6 +228,15 @@ height: 2rem;
     gap: 1rem;
     transition: all 0.25s;
 }
+.single-image-data > img{
+    height: 0.1rem;
+}
+.single-market-data > h3{
+    font-size: 1.5rem;
+}
+.single-market-data > p{
+    margin-top: 0.45rem; 
+}
 
 
 

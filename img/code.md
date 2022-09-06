@@ -18,3 +18,22 @@
                 </tbody>
                 
             </table>
+
+             <div class="container">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Symbol</th>
+                          <th>Name</th>
+                          <th>Image</th>
+                          <th>Current Price</th>
+                          <th>24hr %</th>
+                          <th>MarketCap</th>
+                        </tr>
+                      </thead>
+                      <tbody id="data">
+                  
+                      </tbody>
+                    </table>
+                  </div>
