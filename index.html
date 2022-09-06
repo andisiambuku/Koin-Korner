@@ -34,7 +34,7 @@
             </ul>
             
         </nav>
-        <!--Landing Section-->
+        <!--Hero Section-->
         <section class="hero">
             <div class="intro">
                 <h2>
@@ -82,12 +82,13 @@
         <br>
         <!--Search feature-->
         <section class="look-up">
-            <div class="search" id=""search>
+            <div class="search" id="search">
             
-                <form action="#">
+                <form action="#" method="GET">
                     <input
                     type="text"
                     placeholder="Search Cryptocurrency"
+                    name="q"
                     class="search-bar"
                     required
                     >
@@ -99,6 +100,12 @@
                     required
                     />
                 </form>
+            </div>
+            <!-- for search result  -->
+            <div class="search-result-container">
+                <div class="single-search-result card" id="search-results">
+                    
+                </div>
             </div>
         </section>
         <br>

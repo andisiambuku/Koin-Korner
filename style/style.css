@@ -140,8 +140,6 @@ form{
 .submit-btn:hover{
     background-color:  #b3b4b4;;
 }
-
-  
 .sub #socicons {
     font-size: 1.3rem; 
     size: large;
@@ -171,8 +169,82 @@ input[type="text"]{
     cursor: pointer;
 }
 .search-btn:hover{
-    background-color:  #b3b4b4;;
+    background-color:  #b3b4b4;
 }
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.search-result-card{
+    display: flex;
+    flex-direction: column;
+}
+.single-search-result{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: auto;
+    margin: auto;
+    gap: 1rem;
+    transition: all 0.25s;
+}
+.single-search-result:hover{
+    box-shadow: var(--primary-color);
+}
+.single-search-result > img{
+height: 2rem;
+}
+.single-search-result > h3{
+    font-size: 1.5rem;
+}
+.single-search-result > p{
+   margin: auto; 
+}
+.single-search-result > a{
+    background-color: #465362;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.25rem 1rem;
+    transition: all 0.25s;
+    margin-left: auto;
+    text-decoration: none;
+    color: #011936;
+    
+}
+.single-search-result > a:hover{
+    background-color: #465362;
+    /* color: #011936; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .data{
     margin: auto;
 }
