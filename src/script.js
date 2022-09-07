@@ -76,8 +76,8 @@ function display(data){
         const name = oneCoin.name;
         const symbol = oneCoin.symbol;
         const market_cap= oneCoin.market_cap;
-        const current_price=oneCoin.current_price;
-        const price_change = oneCoin.price_change_percentage_24h.toFixed(1)
+        const current_price=oneCoin.current_price.toFixed(2);
+        const price_change = oneCoin.price_change_percentage_24h.toFixed(2)
         
         createCoinCard(index, logo, name, symbol, market_cap,current_price,price_change);
         
