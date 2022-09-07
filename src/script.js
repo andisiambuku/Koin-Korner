@@ -1,5 +1,3 @@
-// variables for DOM components
-const likerButton = document.getElementById('like-btn');
 
 
 //function for the search feature
@@ -111,6 +109,13 @@ function createCoinCard(index, logo, name, symbol, market_cap,current_price,pric
     const price_change_element = document.createElement('h3');
     price_change_element.innerText=price_change;
 
+    const likerButton = document.createElement('button');
+    likerButton.innerHTML="	&#11088;";
+    likerButton.onclick= function(){
+        alert("Liked");
+    }
+
+
 
     const container_element = document.createElement('div');
     container_element.classList.add('single-market-data','card');
@@ -121,6 +126,7 @@ function createCoinCard(index, logo, name, symbol, market_cap,current_price,pric
     container_element.appendChild(current_price_element);
     container_element.appendChild(market_cap_element);
     container_element.appendChild(price_change_element);
+    container_element.appendChild(likerButton);
     
     document.getElementById('search-results').appendChild(container_element);
 }
