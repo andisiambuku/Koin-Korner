@@ -83,14 +83,7 @@ function display(data){
         createCoinCard(index, logo, name, symbol, market_cap,current_price,price_change);
         
     }
-        // let row = document.createElement('tr')
-        // row.innerHTML = `<tr>
-        //                 <td> ${data.id}</td>
-                        
-        //                 </tr>`;
-        // let body = document.getElementById('data');
-        // body.appendChild(row);
-        // console.log(body)   
+          
 }
 function createCoinCard(index, logo, name, symbol, market_cap,current_price,price_change){
     const id_element = document.createElement('p');
@@ -127,51 +120,13 @@ function createCoinCard(index, logo, name, symbol, market_cap,current_price,pric
     container_element.appendChild(symbol_element);
     container_element.appendChild(current_price_element);
     container_element.appendChild(market_cap_element);
-    container_element.appendChild({price_change_element});
-
-    document.getElementById('data').appendChild(container_element);
+    container_element.appendChild(price_change_element);
+    
+    document.getElementById('search-results').appendChild(container_element);
 }
-
-
 
 window.onload = function(){
     searchData();
     marketData();
 }
-
-
-
- // market += "<tr>";
-            // market += "<td>" +coin.id + "</td";
-            // market += "<td>" +coin.symbol + "</td";
-            // market += "<td>" +coin.name + "</td";
-            // market += "<td>" +coin.image + "</td";
-            // market += "<td>" +coin.current_price + "</td";
-            // market += "<td>" +coin.market_cap + "</td";
-            // market += "<td>" +coin.price_change_percentage_24h + "</td";
-
-
-
-// .then((res) =>{
-//     if (res.ok){
-//         res.json().then((json)=>{
-//             console.log(json.data);
-//             let coinsData = json.data;
-            
-//             if(coinsData.length>0){
-//                 const market = "";
-//             }
-//             coinsData.forEach((coin)=>{
-//                 market += "<tr>";
-//                 market += "<td>" +coin.id + "</td";
-//                 market += "<td>" +coin.symbol + "</td";
-//                 market += "<td>" +coin.name + "</td";
-//                 market += "<td>" +coin.image + "</td";
-//                 market += "<td>" +coin.current_price + "</td";
-//                 market += "<td>" +coin.market_cap + "</td";
-//                 market += "<td>" +coin.price_change_percentage_24h + "</td";
-//        });
-//         document.getElementById('data').innerHTML= market;
-//     });
-// }
-// })   
+ 

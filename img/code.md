@@ -37,3 +37,24 @@
                       </tbody>
                     </table>
                   </div>
+ Table with Current Crypto Data-->
+  
+            <table class="table" id="table">
+                <thead>
+                <tr>
+                    <!-- <th>Like</th>
+                    <th>#</th>
+                    <th>Coin Name</th>
+                    <th>Logo</th>
+                    <th>Price</th>
+                    <th>24h %</th>
+                    <th>Market Cap</th> -->
+                </tr>
+                </thead>
+                <tbody id="data">
+                    
+                </tbody>
+                <!-- <td id="like-btn"><ion-icon name="star-outline"></ion-icon></td> -->
+            </table>
+        </section>
+
