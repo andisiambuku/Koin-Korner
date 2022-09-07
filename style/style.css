@@ -175,14 +175,16 @@ input[type="text"]{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1rem;
 }
 .single-search-result{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: auto;
-    margin: auto;
+    padding: 0.5rem 2rem;
+    margin: 0rem 5rem;
     gap: 1rem;
+    justify-content: space-between;
     transition: all 0.25s;
 }
 .single-search-result:hover{
