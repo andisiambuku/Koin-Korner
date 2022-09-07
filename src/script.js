@@ -101,13 +101,13 @@ function createCoinCard(index, logo, name, symbol, market_cap,current_price,pric
     symbol_element.innerText=symbol;
 
     const current_price_element = document.createElement('h3');
-    current_price_element.innerText=current_price;
+    current_price_element.innerText= "$" + current_price;
    
     const market_cap_element = document.createElement('h3');
-    market_cap_element.innerText=market_cap;
+    market_cap_element.innerText= "$" + market_cap;
 
     const price_change_element = document.createElement('h3');
-    price_change_element.innerText=price_change;
+    price_change_element.innerText=price_change + "%";
 
     const likerButton = document.createElement('button');
     likerButton.innerHTML="	&#11088;";
