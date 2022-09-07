@@ -189,7 +189,7 @@ input[type="text"]{
     box-shadow: var(--primary-color);
 }
 .single-search-result > img{
-height: 2rem;
+    height: 2rem;
 }
 .single-search-result > h3{
     font-size: 1.5rem;
@@ -207,11 +207,9 @@ height: 2rem;
     margin-left: auto;
     text-decoration: none;
     color: #011936;
-    
 }
 .single-search-result > a:hover{
     background-color: #465362;
-    /* color: #011936; */
 }
 .market-data-container{
     display: flex;
@@ -237,49 +235,14 @@ height: 2rem;
 .single-market-data > p{
     margin-top: 0.45rem; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.data{
-    margin: auto;
-}
-.table{
-    margin: auto;
-    border-collapse: collapse;
-}
-th{
-    padding: 15px;
-}
-tr{
-   border-bottom: 1px solid var(--primary-color);
-}
-#like-btn{
-    text-align: center;
+.single-market-data > button{
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.25rem 1rem;
+    transition: all 0.25s;
+    margin-left: auto;
+    text-decoration: none;
 }
 footer{
     border-top: 1px solid #f1f1f1;

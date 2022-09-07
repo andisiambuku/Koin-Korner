@@ -115,8 +115,6 @@ function createCoinCard(index, logo, name, symbol, market_cap,current_price,pric
         alert("Liked");
     }
 
-
-
     const container_element = document.createElement('div');
     container_element.classList.add('single-market-data','card');
     container_element.appendChild(id_element);
