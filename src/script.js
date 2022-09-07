@@ -84,6 +84,9 @@ function display(data){
     }
           
 }
+
+  
+
 function createCoinCard(index, logo, name, symbol, market_cap,current_price,price_change){
     const id_element = document.createElement('p');
     if(index<10){
