@@ -176,6 +176,7 @@ input[type="text"]{
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+    
 }
 .single-search-result{
     display: flex;
@@ -217,19 +218,22 @@ input[type="text"]{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    width: 700px;
+    
 }
 .single-market-data{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: auto;
-    margin: auto;
+    padding: 0.5rem 2rem;
+    margin: 0rem 5rem;
     gap: 1rem;
+    column-gap: 20px;
     transition: all 0.25s;
 }
 .single-market-data > img{
     height: 2rem;
+    
 }
 .single-market-data > h3{
     font-size: 1.5rem;

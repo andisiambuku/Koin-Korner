@@ -130,7 +130,8 @@ function createCoinCard(index, logo, name, symbol, market_cap,current_price,pric
     container_element.appendChild(price_change_element);
     container_element.appendChild(likerButton);
     
-    document.getElementById('search-results').appendChild(container_element);
+    
+    document.getElementById('market-data').appendChild(container_element);
 }
 
 window.onload = function(){
