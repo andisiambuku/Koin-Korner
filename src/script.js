@@ -1,4 +1,8 @@
+const email_button = document.getElementById('sub-btn');
 
+email_button.onclick= function(){
+    alert("Subscribed");
+}
 
 //function for the search feature
 function searchData(){
