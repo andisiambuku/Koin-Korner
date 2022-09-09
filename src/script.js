@@ -22,11 +22,12 @@ function render(data){
         const name = singleCoin.name;
         const symbol = singleCoin.symbol;
         const coinId = singleCoin.id;
-        createSingleCard(index, logo, name, symbol, coinId);
+        const cap = singleCoin.market_cap_rank;
+        createSingleCard(index, logo, name, symbol, coinId,cap);
     }
 }
 
-function createSingleCard(index, logo, name, symbol, coinId){
+function createSingleCard(index, logo, name, symbol, coinId,cap){
     const id_elem = document.createElement('p');
     if(index<10){
         index = index + "&nbsp;&nbsp;";
@@ -43,6 +44,9 @@ function createSingleCard(index, logo, name, symbol, coinId){
     const symbol_elem = document.createElement('h3');
     symbol_elem.innerText=symbol;
 
+    const cap_elem = document.createElement('h3');
+    cap_elem.innerText= "Market Cap Rank:"+ cap;
+
     const anchor_elem = document.createElement('a');
     anchor_elem.innerText="More Info";
     anchor_elem.href="#" + coinId;
@@ -53,6 +57,7 @@ function createSingleCard(index, logo, name, symbol, coinId){
     container_elem.appendChild(logo_elem);
     container_elem.appendChild(name_elem);
     container_elem.appendChild(symbol_elem);
+    container_elem.appendChild(cap_elem);
     container_elem.appendChild(anchor_elem);
 
     document.getElementById('search-results').appendChild(container_elem);

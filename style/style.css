@@ -204,7 +204,7 @@ input[type="text"]{
 }
 .single-search-result > a{
     background-color: #465362;
-    border: 1px solid var(--secondary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 5px;
     cursor: pointer;
     padding: 0.25rem 1rem;
