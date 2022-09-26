@@ -216,43 +216,6 @@ input[type="text"]{
 .single-search-result > a:hover{
     background-color: #465362;
 }
-/* old market data styling */
-.market-data-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 700px;
-    
-}
-.single-market-data{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0.5rem 2rem;
-    margin: 0rem 5rem;
-    gap: 1rem;
-    column-gap: 20px;
-    transition: all 0.25s;
-}
-.single-market-data > img{
-    height: 2rem;
-    
-}
-.single-market-data > h3{
-    font-size: 1.5rem;
-}
-.single-market-data > p{
-    margin-top: 0.45rem; 
-}
-.single-market-data > button{
-    border: 1px solid var(--secondary-color);
-    border-radius: 5px;
-    cursor: pointer;
-    padding: 0.25rem 1rem;
-    transition: all 0.25s;
-    margin-left: auto;
-    text-decoration: none;
-}
 /* market data table styling */
 #market-data-table, #market-data-table{
     width: 70%;
